@@ -1,0 +1,52 @@
+.Dropdown-list-item {
+  background-color: #e7eef5;
+  list-style: none;
+}
+
+.Dropdown-list-item-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px white solid;
+}
+
+.Dropdown-list-item-name-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.Dropdown-list-item-name {
+  font-size: 12px;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.Dropdown-list-item-name-children {
+  font-size: 10px;
+  color: #999999;
+}
+
+.Dropdown-list-item-name-child:not(:first-child)::before {
+  content: ", "
+}
+
+.Dropdown-list-item .Dropdown-list-item-icon {
+  color: white;
+  background: #ccd8e1;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.Dropdown-list-item.open > .Dropdown-list-item-container .Dropdown-list-item-icon {
+  background: #AEC1CE;
+}
+
+.Dropdown-list-item > .Dropdown-list-item-container .Dropdown-list-item-checkbox ,
+.Dropdown-list-item > .Dropdown-list-item-container .Dropdown-list-item-name {
+  color: #3e617c;
+}
+
+.Dropdown-list-item.selected > .Dropdown-list-item-container .Dropdown-list-item-checkbox ,
+.Dropdown-list-item.selected > .Dropdown-list-item-container .Dropdown-list-item-name {
+  color: #32985E;
+}

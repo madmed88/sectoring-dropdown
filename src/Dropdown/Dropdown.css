@@ -1,0 +1,121 @@
+.Dropdown {
+  display: inline;
+}
+
+.Dropdown:nth-child(odd) .Dropdown-header{
+  background-color: #9abfa6;
+  border-bottom: 5px solid #9abfa6;
+  shape-outside: polygon(0 0, 0 100%, calc(100% - 1em) 100%, 100% 0);
+  clip-path: polygon(0 0, 0 100%, calc(100% - 1em) 100%, 100% 0);
+}
+
+.Dropdown:nth-child(even) .Dropdown-header {
+  background-color: #C4D6E3 ;
+  border-bottom: 5px solid #A6BECE;
+  color: #335D7B;
+  shape-outside: polygon(1em 0, 0 100%, 100% 100%, 100% 0);
+  clip-path: polygon(1em 0%, 0 100%, 100% 100%, 100% 0);
+}
+
+.Dropdown.open:nth-child(even) .Dropdown-header {
+  background-color: #3e617c;
+  border-bottom: 5px solid #3e617c;
+  color: white;
+}
+
+.Dropdown:nth-child(odd) .Dropdown-header-title {
+  margin-right: 1em;
+}
+
+.Dropdown:nth-child(even) .Dropdown-header-title {
+  margin-left: 1em;
+}
+
+.Dropdown:not(:first-child) {
+  margin-left: -0.5em;
+}
+
+.Dropdown-header {
+  cursor: pointer;
+  display: flex;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.Dropdown-header-title .Dropdown-clear {
+  position: absolute;
+  width: 0.7em;
+  top: 0;
+  color: #A1BAC9;
+}
+
+.Dropdown-list {
+  color: #3e617c;
+  padding: 0;
+  margin: 0;
+  border-left: none; 
+  max-height: 300px;
+  overflow-y: scroll;
+  text-transform: uppercase;
+}
+
+.Dropdown-list-deep {
+  color: #3e617c;
+  padding: 0;
+}
+
+.Dropdown-list-item.level2 .Dropdown-list-item-checkbox {
+  margin-left: 20px;
+}
+
+.Dropdown-list-item.level3 .Dropdown-list-item-checkbox {
+  margin-left: 40px;
+}
+
+.Dropdown-list::-webkit-scrollbar {
+  background-color: #F5F5F5;
+}
+
+.Dropdown-list::-webkit-scrollbar-thumb {
+  border: 0.2em solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  background-clip: padding-box;
+  background-color: #b2c2cf;
+}
+
+.Dropdown-list::-webkit-scrollbar-track {
+  background-color: #3e617c;
+}
+
+.Dropdown-list::-webkit-scrollbar-button:vertical:increment{
+  height: 1em;
+  background-color: #3e617c;
+}
+
+.Dropdown-list-container {
+  position: absolute;
+  clip-path: polygon(0 0, 0 100%, calc(100% - 0.4em) 100%, 100% calc(100% - 1.5em), 100% 0);
+  border-bottom: 5px #3e617c solid;
+  max-width: 500px;
+}
+
+.Dropdown-selectedSectors {
+  background: #3e617c;
+  padding: 3px;
+}
+
+.Dropdown-selectedSectors .Dropdown-selectedChip {
+  background-color: #ACBFCD;
+  color: #486D88;
+  margin: 5px;
+  font-size: 10px;
+}
+
+.Dropdown-selectedSectors .Dropdown-selectedChip:focus, .Dropdown-selectedSectors .Dropdown-selectedChip:hover {
+  background: #ccd8e1;
+}
+
+.Dropdown-selectedSectors .Dropdown-deleteIcon {
+  color: #3e617c;
+}
+

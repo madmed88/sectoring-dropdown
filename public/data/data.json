@@ -1,0 +1,1401 @@
+[
+  {
+    "id": "1",
+    "name": "Technology",
+    "abbreviation": "Technology"
+  },
+  { 
+    "id": "2",
+    "name": "Health Care",
+    "abbreviation": "Health Care"
+  },
+  { 
+    "id": "3",
+    "name": "Consumer Discretionary",
+    "abbreviation": "Cons. Discr."
+  },
+  { 
+    "id": "4",
+    "name": "Consumer Staples",
+    "abbreviation": "Cons. Staples"
+  },
+  { 
+    "id": "6",
+    "name": "Energy",
+    "abbreviation": "Energy"
+  },
+  { 
+    "id": "7",
+    "name": "Materials & Processing",
+    "abbreviation": "Mat. & Proc."
+  },
+  { 
+    "id": "8",
+    "name": "Producer Durables",
+    "abbreviation": "Prod. Durables"
+  },
+  { 
+    "id": "10",
+    "name": "Financial Services",
+    "abbreviation": "Fin. Serv."
+  },
+  {
+    "id": "11",
+    "name": "Utilities",
+    "abbreviation": "Utilities"
+  },
+  {
+    "parent": "1",
+    "id": "110",
+    "name": "Diversified Technology",
+    "abbreviation": "Diversified"
+  },
+  {
+    "parent": "1",
+    "id": "120",
+    "name": "Electronics",
+    "abbreviation": "Electronics"
+  },
+  {
+    "parent": "1",
+    "id": "130",
+    "name": "Information Technology",
+    "abbreviation": "IT"
+  },
+  {
+    "parent": "1",
+    "id": "140",
+    "name": "Telecommunication",
+    "abbreviation": "Telecom"
+  },
+  {
+    "parent": "2",
+    "id": "210",
+    "name": "Health Care Services",
+    "abbreviation": "Services"
+  },
+  {
+    "parent": "2",
+    "id": "220",
+    "name": "Medical Equipment & Services",
+    "abbreviation": "Medical"
+  },
+  {
+    "parent": "2",
+    "id": "230",
+    "name": "Pharmaceuticals & Biotech",
+    "abbreviation": "Pharma & Bio"
+  },
+  {
+    "parent": "3",
+    "id": "310",
+    "name": "Auto & Auto Parts",
+    "abbreviation": "Auto"
+  },
+  {
+    "parent": "3",
+    "id": "320",
+    "name": "Consumer Products",
+    "abbreviation": "Products"
+  },
+  {
+    "parent": "3",
+    "id": "330",
+    "name": "Consumer Services",
+    "abbreviation": "Services"
+  },
+  {
+    "parent": "3",
+    "id": "340",
+    "name": "Leisure",
+    "abbreviation": "Leisure"
+  },
+  {
+    "parent": "3",
+    "id": "350",
+    "name": "Media",
+    "abbreviation": "Media"
+  },
+  {
+    "parent": "3",
+    "id": "360",
+    "name": "Retail",
+    "abbreviation": "Retail"
+  },
+  {
+    "parent": "4",
+    "id": "410",
+    "name": "Food, Beverage & Tobacco",
+    "abbreviation": "Food, Bev. & Tob."
+  },
+  {
+    "parent": "4",
+    "id": "420",
+    "name": "Personal Care, Drug & Grocery Stores",
+    "abbreviation": "Care & Stores"
+  },
+  {
+    "parent": "6",
+    "id": "610",
+    "name": "Energy Equipment & Services",
+    "abbreviation": "Equip. & Services"
+  },
+  {
+    "parent": "6",
+    "id": "620",
+    "name": "Non-renewable Energy",
+    "abbreviation": "Non-renewable"
+  },
+  {
+    "parent": "6",
+    "id": "630",
+    "name": "Alternative Energy",
+    "abbreviation": "Alternative"
+  },
+  {
+    "parent": "7",
+    "id": "710",
+    "name": "Building Materials",
+    "abbreviation": "Building"
+  },
+  {
+    "parent": "7",
+    "id": "720",
+    "name": "Chemical & Synthetics",
+    "abbreviation": "Chemicals"
+  },
+  {
+    "parent": "7",
+    "id": "730",
+    "name": "Industrial Materials & Processes",
+    "abbreviation": "Industrial"
+  },
+  {
+    "parent": "7",
+    "id": "740",
+    "name": "Metals & Minerals",
+    "abbreviation": "Metals"
+  },
+  {
+    "parent": "7",
+    "id": "750",
+    "name": "Real Estate",
+    "abbreviation": "Real Estate"
+  },
+  {
+    "parent": "8",
+    "id": "810",
+    "name": "Machinery",
+    "abbreviation": "Machinery"
+  },
+  {
+    "parent": "8",
+    "id": "820",
+    "name": "Manufacturing & Production",
+    "abbreviation": "Manufacturing"
+  },
+  {
+    "parent": "8",
+    "id": "830",
+    "name": "Scientific Instruments & Services",
+    "abbreviation": "Scientific"
+  },
+  {
+    "parent": "8",
+    "id": "840",
+    "name": "Transportation & Freight",
+    "abbreviation": "Transportation"
+  },
+  {
+    "parent": "8",
+    "id": "850",
+    "name": "Commercial Services",
+    "abbreviation": "Services"
+  },
+  {
+    "parent": "10",
+    "id": "1010",
+    "name": "Banks",
+    "abbreviation": "Banks"
+  },
+  {
+    "parent": "10",
+    "id": "1020",
+    "name": "Consumer Finance & Credit Services",
+    "abbreviation": "Finance & Credit"
+  },
+  {
+    "parent": "10",
+    "id": "1030",
+    "name": "Insurance",
+    "abbreviation": "Insurance"
+  },
+  {
+    "parent": "10",
+    "id": "1040",
+    "name": "Investment Banking & Brokerage",
+    "abbreviation": "IB & Brokerage"
+  },
+  {
+    "parent": "10",
+    "id": "1050",
+    "name": "Real Estate",
+    "abbreviation": "Real Estate"
+  },
+  {
+    "parent": "10",
+    "id": "1060",
+    "name": "Real Estate Investment Trusts",
+    "abbreviation": "REITs"
+  },
+  {
+    "parent": "11",
+    "id": "1110",
+    "name": "Utilities",
+    "abbreviation": "Utilities"
+  },
+  {
+    "parent": "110",
+    "id": "110822",
+    "obsolete": "true"
+  },
+  {
+    "parent": "120",
+    "id": "120463",
+    "name": "Electronic components"
+  },
+  {
+    "parent": "120",
+    "id": "120473",
+    "name": "Electronic components",
+    "obsolete": "true"
+  },
+  {
+    "parent": "120",
+    "id": "120475",
+    "name": "Electronics"
+  },
+  {
+    "parent": "120",
+    "id": "120476",
+    "name": "Semiconductors & components"
+  },
+  {
+    "parent": "120",
+    "id": "120643",
+    "name": "Technology: Miscellaneous"
+  },
+  {
+    "parent": "120",
+    "id": "120738",
+    "name": "Production technology equipment"
+  },
+  {
+    "parent": "120",
+    "id": "820738",
+    "name": "Production technology equipment",
+    "obsolete": "true"
+  },
+  {
+    "parent": "130",
+    "id": "130439",
+    "name": "Computer services software & systems"
+  },
+  {
+    "parent": "130",
+    "id": "130449",
+    "name": "Computer technology"
+  },
+  {
+    "parent": "130",
+    "id": "130469",
+    "name": "Electronic entertainment"
+  },
+  {
+    "parent": "140",
+    "id": "140448",
+    "name": "Communications technology"
+  },
+  {
+    "parent": "140",
+    "id": "140849",
+    "name": "Telecommunications equipment"
+  },
+  {
+    "parent": "140",
+    "id": "840849",
+    "name": "Telecommunications equipment",
+    "obsolete": "true"
+  },
+  {
+    "parent": "210",
+    "id": "210499",
+    "name": "Health care services"
+  },
+  {
+    "parent": "210",
+    "id": "210503",
+    "name": "Health care management services"
+  },
+  {
+    "parent": "210",
+    "id": "210504",
+    "name": "Health care facilities"
+  },
+  {
+    "parent": "210",
+    "id": "210639",
+    "name": "Health care: Miscellaneous"
+  },
+  {
+    "parent": "220",
+    "id": "220471",
+    "name": "Medical equipment"
+  },
+  {
+    "parent": "220",
+    "id": "220507",
+    "name": "Medical & dental instruments & supplies"
+  },
+  {
+    "parent": "220",
+    "id": "220622",
+    "name": "Medical services"
+  },
+  {
+    "parent": "230",
+    "id": "230412",
+    "name": "Biotechnology"
+  },
+  {
+    "parent": "230",
+    "id": "230460",
+    "name": "Pharmaceuticals"
+  },
+  {
+    "parent": "310",
+    "id": "310340",
+    "name": "Auto parts"
+  },
+  {
+    "parent": "310",
+    "id": "310360",
+    "name": "Automobiles"
+  },
+  {
+    "parent": "310",
+    "id": "310854",
+    "name": "Auto services"
+  },
+  {
+    "parent": "310",
+    "id": "910330",
+    "name": "Auto parts",
+    "obsolete": "true"
+  },
+  {
+    "parent": "310",
+    "id": "310330",
+    "name": "Auto parts",
+    "obsolete": "true"
+  },
+  {
+    "parent": "310",
+    "id": "910340",
+    "name": "Auto parts",
+    "obsolete": "true"
+  },
+  {
+    "parent": "310",
+    "id": "310350",
+    "obsolete": "true"
+  },
+  {
+    "parent": "310",
+    "id": "910360",
+    "name": "Automobiles",
+    "obsolete": "true"
+  },
+  {
+    "parent": "310",
+    "id": "910854",
+    "name": "Auto services",
+    "obsolete": "true"
+  },
+  {
+    "parent": "320",
+    "id": "320450",
+    "name": "Cosmetics"
+  },
+  {
+    "parent": "320",
+    "id": "320451",
+    "name": "Consumer electronics"
+  },
+  {
+    "parent": "320",
+    "id": "320470",
+    "name": "Household appliances"
+  },
+  {
+    "parent": "320",
+    "id": "320501",
+    "name": "Home building"
+  },
+  {
+    "parent": "320",
+    "id": "820501",
+    "name": "Home building",
+    "obsolete": "true"
+  },
+  {
+    "parent": "320",
+    "id": "320521",
+    "name": "Household equipment & products"
+  },
+  {
+    "parent": "320",
+    "id": "320523",
+    "name": "Household furnishings"
+  },
+  {
+    "parent": "320",
+    "id": "320547",
+    "name": "Luxury items"
+  },
+  {
+    "parent": "320",
+    "id": "320730",
+    "name": "Photography"
+  },
+  {
+    "parent": "320",
+    "id": "320828",
+    "name": "Textiles apparel & shoes",
+    "obsolete": "true"
+  },
+  {
+    "parent": "320",
+    "id": "320850",
+    "name": "Textiles apparel & shoes"
+  },
+  {
+    "parent": "320",
+    "id": "320858",
+    "name": "Toys"
+  },
+  { 
+    "parent": "320",
+    "id": "320891",
+    "name": "Wholesale & international trade"
+  },
+  {
+    "parent": "320",
+    "id": "320892",
+    "name": "Wholesale & international trade",
+    "obsolete": "true"
+  },
+  {
+    "parent": "320",
+    "id": "320640",
+    "name": "Manufactured housing"
+  },
+  {
+    "parent": "320",
+    "id": "820640",
+    "name": "Manufactured housing",
+    "obsolete": "true"
+  },
+  {
+    "parent": "330",
+    "id": "330730",
+    "name": "Photography"
+  },
+  {
+    "parent": "330",
+    "id": "330736",
+    "name": "Printing & copying services"
+  },
+  {
+    "parent": "330",
+    "id": "330461",
+    "name": "Education services"
+  },
+  {
+    "parent": "330",
+    "id": "330495",
+    "name": "Funeral parlors & cemeteries"
+  },
+  {
+    "parent": "330",
+    "id": "330638",
+    "name": "Consumer services: Miscellaneous"
+  },
+  {
+    "parent": "330",
+    "id": "330838",
+    "name": "Storage facilities"
+  },
+  {
+    "parent": "330",
+    "id": "330890",
+    "name": "Vending & catering services"
+  },
+  {
+    "parent": "330",
+    "id": "330809",
+    "name": "Rental & leasing services: Consumer"
+  },
+  { 
+    "parent": "330",
+    "id": "330446",
+    "obsolete": "true"
+  },
+  {
+    "parent": "340",
+    "id": "340434",
+    "name": "Casinos & gambling"
+  },
+  {
+    "parent": "340",
+    "id": "340514",
+    "name": "Hotel/motel"
+  },
+  { 
+    "parent": "340",
+    "id": "340556",
+    "name": "Leisure time"
+  },
+  { 
+    "parent": "340",
+    "id": "340804",
+    "name": "Recreational vehicles & boats"
+  },
+  { 
+    "parent": "340",
+    "id": "940804",
+    "name": "Recreational vehicles & boats",
+    "obsolete": "true"
+  },
+  {
+    "parent": "340",
+    "id": "340810",
+    "name": "Restaurants"
+  },
+  {
+    "parent": "350",
+    "id": "350301",
+    "name": "Advertising agencies"
+  },
+  {
+    "parent": "350",
+    "id": "350432",
+    "name": "Cable television services"
+  },
+  {
+    "parent": "350",
+    "id": "350438",
+    "name": "Diversified media"
+  },
+  {
+    "parent": "350",
+    "id": "350480",
+    "name": "Entertainment"
+  },
+  {
+    "parent": "350",
+    "id": "350740",
+    "name": "Publishing"
+  },
+  {
+    "parent": "350",
+    "id": "350750",
+    "name": "Publishing",
+    "obsolete": "true"
+  },
+  {
+    "parent": "350",
+    "id": "350760",
+    "name": "Radio & TV broadcasters"
+  },
+  {
+    "parent": "360",
+    "id": "360815",
+    "name": "Diversified retail"
+  },
+  {
+    "parent": "360",
+    "id": "360834",
+    "name": "Specialty retail"
+  },
+  {
+    "parent": "410",
+    "id": "410305",
+    "name": "Agriculture fishing & ranching"
+  },
+  {
+    "parent": "410",
+    "id": "710305",
+    "name": "Agriculture fishing & ranching",
+    "obsolete": "true"
+  },
+  {
+    "parent": "410",
+    "id": "410405",
+    "name": "Beverage: Brewers & distillers"
+  },
+  {
+    "parent": "410",
+    "id": "410407",
+    "obsolete": "true"
+  },
+  {
+    "parent": "410",
+    "id": "410410",
+    "name": "Beverage: Soft drinks"
+  },
+  {
+    "parent": "410",
+    "id": "410494",
+    "name": "Foods"
+  },
+  {
+    "parent": "410",
+    "id": "410646",
+    "name": "Fruit & grain processing"
+  },
+  {
+    "parent": "410",
+    "id": "710646",
+    "name": "Fruit & grain processing",
+    "obsolete": "true"
+  },
+  {
+    "parent": "410",
+    "id": "410840",
+    "name": "Sugar"
+  },
+  {
+    "parent": "410",
+    "id": "410856",
+    "name": "Tobacco"
+  },
+  {
+    "parent": "420",
+    "id": "420459",
+    "name": "Drug & grocery store chains"
+  },
+  {
+    "parent": "420",
+    "id": "420637",
+    "name": "Miscellaneous consumer staples"
+  },
+  {
+    "parent": "420",
+    "id": "420832",
+    "name": "Personal care"
+  },
+  {
+    "parent": "420",
+    "id": "320444",
+    "name": "Personal care",
+    "obsolete": "true"
+  },
+  {
+    "parent": "610",
+    "id": "610477",
+    "name": "Energy equipment"
+  },
+  {
+    "parent": "610",
+    "id": "610600",
+    "name": "Oil well equipment & services"
+  },
+  {
+    "parent": "620",
+    "id": "620435",
+    "name": "Coal"
+  },
+  {
+    "parent": "620",
+    "id": "620877",
+    "name": "Gas pipeline"
+  },
+  {
+    "parent": "620",
+    "id": "620660",
+    "name": "Offshore drilling & other services"
+  },
+  {
+    "parent": "620",
+    "id": "620700",
+    "name": "Oil: Integrated"
+  },
+  {
+    "parent": "620",
+    "id": "520700",
+    "name": "Oil: Integrated",
+    "obsolete": "true"
+  },
+  {
+    "parent": "620",
+    "id": "520710",
+    "name": "Oil: Integrated",
+    "obsolete": "true"
+  },
+  {
+    "parent": "620",
+    "id": "620670",
+    "name": "Oil: Crude producers"
+  },
+  {
+    "parent": "620",
+    "id": "620605",
+    "name": "Oil: Refining & marketing"
+  },
+  {
+    "parent": "630",
+    "id": "630478",
+    "name": "Alternative energy"
+  },
+  { 
+    "parent": "710",
+    "id": "710430",
+    "name": "Building materials"
+  },
+  {
+    "parent": "710",
+    "id": "710415",
+    "name": "Building: Climate control"
+  },
+  {
+    "parent": "710",
+    "id": "710427",
+    "name": "Building: Roofing, wallboard & plumbing"
+  },
+  {
+    "parent": "710",
+    "id": "710420",
+    "name": "Cement"
+  },
+  {
+    "parent": "710",
+    "id": "710425",
+    "obsolete": "true"
+  },
+  {
+    "parent": "710",
+    "id": "710429",
+    "obsolete": "true"
+  },
+  {
+    "parent": "720",
+    "id": "720433",
+    "name": "Chemical: Diversified"
+  },
+  {
+    "parent": "720",
+    "id": "720833",
+    "name": "Chemical: Specialty"
+  },
+  {
+    "parent": "720",
+    "id": "720485",
+    "name": "Fertilizers"
+  },
+  {
+    "parent": "720",
+    "id": "720845",
+    "name": "Synthetic fibers & chemicals"
+  },
+  {
+    "parent": "730",
+    "id": "730442",
+    "name": "Containers & packaging"
+  },
+  {
+    "parent": "730",
+    "id": "730445",
+    "name": "Containers & packaging",
+    "obsolete": "true"
+  },
+  {
+    "parent": "730",
+    "id": "730452",
+    "name": "Diversified materials & processing"
+  },
+  {
+    "parent": "730",
+    "id": "730636",
+    "name": "Diversified materials & processing",
+    "obsolete": "true"
+  },
+  {
+    "parent": "730",
+    "id": "730496",
+    "name": "Forest products"
+  },
+  {
+    "parent": "730",
+    "id": "730502",
+    "name": "Glass"
+  },
+  {
+    "parent": "730",
+    "id": "730714",
+    "name": "Paints & coatings"
+  },
+  {
+    "parent": "730",
+    "id": "730720",
+    "name": "Paper"
+  },
+  {
+    "parent": "730",
+    "id": "730733",
+    "name": "Plastics"
+  },
+  {
+    "parent": "730",
+    "id": "730852",
+    "name": "Textile products"
+  },
+  {
+    "parent": "730",
+    "id": "730443",
+    "obsolete": "true"
+  },
+  { 
+    "parent": "730",
+    "id": "730479",
+    "obsolete": "true"
+  },
+  {
+    "parent": "730",
+    "id": "730641",
+    "obsolete": "true"
+  },
+  {
+    "parent": "730",
+    "id": "730646",
+    "obsolete": "true"
+  },
+  {
+    "parent": "730",
+    "id": "730655",
+    "obsolete": "true"
+  },
+  {
+    "parent": "740",
+    "id": "740320",
+    "name": "Aluminum"
+  },
+  {
+    "parent": "740",
+    "id": "740447",
+    "name": "Copper"
+  },
+  {
+    "parent": "740",
+    "id": "740498",
+    "name": "Gold"
+  },
+  {
+    "parent": "740",
+    "id": "740630",
+    "name": "Metal fabricating"
+  },
+  {
+    "parent": "740",
+    "id": "740635",
+    "name": "Metals & minerals: Diversified"
+  },
+  {
+    "parent": "740",
+    "id": "740549",
+    "name": "Precious metals & minerals"
+  },
+  {
+    "parent": "740",
+    "id": "740835",
+    "name": "Steel"
+  },
+  {
+    "parent": "810",
+    "id": "810584",
+    "name": "Machinery: Industrial"
+  },
+  {
+    "parent": "810",
+    "id": "810563",
+    "name": "Machinery: Tools"
+  },
+  {
+    "parent": "810",
+    "id": "810570",
+    "name": "Machinery: Agricultural"
+  },
+  {
+    "parent": "810",
+    "id": "810577",
+    "name": "Machinery: Construction & handling"
+  },
+  {
+    "parent": "810",
+    "id": "810579",
+    "name": "Machinery: Engines"
+  },
+  {
+    "parent": "810",
+    "id": "810610",
+    "name": "Machinery: Specialty"
+  },
+  {
+    "parent": "810",
+    "id": "810565",
+    "name": "Machinery & engineering"
+  },
+  {
+    "parent": "820",
+    "id": "820443",
+    "name": "Construction"
+  },
+  {
+    "parent": "820",
+    "id": "720443",
+    "name": "Construction",
+    "obsolete": "true"
+  },
+  {
+    "parent": "820",
+    "id": "820624",
+    "name": "Diversified manufacturing operations",
+    "obsolete": "true"
+  },
+  {
+    "parent": "820",
+    "id": "820453",
+    "name": "Diversified manufacturing operations"
+  },
+  {
+    "parent": "820",
+    "id": "820650",
+    "name": "Office supplies & equipment"
+  },
+  {
+    "parent": "820",
+    "id": "820655",
+    "name": "Office supplies & equipment",
+    "obsolete": "true"
+  },
+  {
+    "parent": "820",
+    "id": "820734",
+    "name": "Power transmission equipment"
+  },
+  {
+    "parent": "820",
+    "id": "820644",
+    "name": "Producer durables: Miscellaneous"
+  },
+  {
+    "parent": "820",
+    "id": "820642",
+    "obsolete": "true"
+  },
+  {
+    "parent": "820",
+    "id": "820526",
+    "obsolete": "true"
+  },
+  {
+    "parent": "830",
+    "id": "830524",
+    "name": "Scientific instruments: Control & filter"
+  },
+  {
+    "parent": "830",
+    "id": "830465",
+    "name": "Scientific instruments: Electrical"
+  },
+  {
+    "parent": "830",
+    "id": "830474",
+    "name": "Scientific instruments: Gauges & meters"
+  },
+  {
+    "parent": "830",
+    "id": "830735",
+    "name": "Scientific instruments: Pollution control"
+  },
+  {
+    "parent": "840",
+    "id": "840808",
+    "name": "Commercial services: Rental & leasing"
+  },
+  {
+    "parent": "840",
+    "id": "1050808",
+    "name": "Commercial services: Rental & leasing",
+    "obsolete": "true"
+  },
+  {
+    "parent": "840",
+    "id": "840350",
+    "name": "Commercial vehicles & parts"
+  },
+  {
+    "parent": "840",
+    "id": "940350",
+    "name": "Commercial vehicles & parts",
+    "obsolete": "true"
+  },
+  {
+    "parent": "840",
+    "id": "840300",
+    "name": "Aerospace"
+  },
+  {
+    "parent": "840",
+    "id": "840310",
+    "name": "Air transport"
+  },
+  {
+    "parent": "840",
+    "id": "840770",
+    "name": "Railroad equipment"
+  },
+  {
+    "parent": "840",
+    "id": "840800",
+    "name": "Railroads"
+  },
+  {
+    "parent": "840",
+    "id": "840830",
+    "name": "Shipping"
+  },
+  {
+    "parent": "840",
+    "id": "840860",
+    "name": "Transportation miscellaneous"
+  },
+  {
+    "parent": "840",
+    "id": "840865",
+    "name": "Truckers"
+  },
+  {
+    "parent": "840",
+    "id": "940310",
+    "name": "Air transport",
+    "obsolete": "true"
+  },
+  {
+    "parent": "840",
+    "id": "940770",
+    "name": "Railroad equipment",
+    "obsolete": "true"
+  },
+  {
+    "parent": "840",
+    "id": "940800",
+    "name": "Railroads",
+    "obsolete": "true"
+  },
+  {
+    "parent": "840",
+    "id": "940830",
+    "name": "Shipping",
+    "obsolete": "true"
+  },
+  {
+    "parent": "840",
+    "id": "940860",
+    "name": "Transportation miscellaneous",
+    "obsolete": "true"
+  },
+  {
+    "parent": "840",
+    "id": "940865",
+    "name": "Truckers",
+    "obsolete": "true"
+  },
+  {
+    "parent": "850",
+    "id": "850365",
+    "name": "Back office support, HR & consulting"
+  },
+  {
+    "parent": "850",
+    "id": "850479",
+    "name": "Engineering & contracting services"
+  },
+  {
+    "parent": "850",
+    "id": "850484",
+    "name": "Environmental, maintenance & security services"
+  },
+  {
+    "parent": "850",
+    "id": "850486",
+    "name": "Forms and bulk printing services"
+  },
+  {
+    "parent": "850",
+    "id": "850546",
+    "name": "International trade & diversified logistics"
+  },
+  {
+    "parent": "850",
+    "id": "850824",
+    "name": "Commercial services",
+    "obsolete": "true"
+  },
+  {
+    "parent": "850",
+    "id": "350446",
+    "name": "Commercial services",
+    "obsolete": "true"
+  },
+  {
+    "parent": "850",
+    "id": "330824",
+    "name": "Commercial services",
+    "obsolete": "true"
+  },
+  {
+    "parent": "850",
+    "id": "350826",
+    "name": "Commercial services",
+    "obsolete": "true"
+  },
+  {
+    "parent": "850",
+    "id": "750479",
+    "name": "Engineering & contracting services",
+    "obsolete": "true"
+  },
+  {
+    "parent": "850",
+    "id": "750486",
+    "name": "Forms and bulk printing services",
+    "obsolete": "true"
+  },
+  {
+    "parent": "750",
+    "id": "750805",
+    "obsolete": "true"
+  },
+  {
+    "parent": "1010",
+    "id": "1010400",
+    "name": "Banks: Diversified"
+  },
+  {
+    "parent": "1010",
+    "id": "1010370",
+    "name": "Banks: Diversified",
+    "obsolete": "true"
+  },
+  {
+    "parent": "1010",
+    "id": "1010402",
+    "name": "Banks: Diversified",
+    "obsolete": "true"
+  },
+  {
+    "parent": "1010",
+    "id": "1010820",
+    "name": "Banks: Savings, thrift & mortgage lending"
+  },
+  {
+    "parent": "1020",
+    "id": "1020487",
+    "name": "Commercial finance & mortgage companies"
+  },
+  {
+    "parent": "1020",
+    "id": "1020491",
+    "obsolete": "true"
+  },
+  {
+    "parent": "1020",
+    "id": "1020492",
+    "name": "Consumer lending"
+  },
+  {
+    "parent": "1020",
+    "id": "1020490",
+    "name": "Consumer lending",
+    "obsolete": "true"
+  },
+  {
+    "parent": "1020",
+    "id": "1020489",
+    "name": "Financial data & systems"
+  },
+  {
+    "parent": "1030",
+    "id": "1030528",
+    "name": "Insurance: Life"
+  },
+  {
+    "parent": "1030",
+    "id": "1030535",
+    "name": "Insurance: Multi-line"
+  },
+  {
+    "parent": "1030",
+    "id": "1030542",
+    "name": "Insurance: Property-casualty"
+  },
+  {
+    "parent": "1040",
+    "id": "1040544",
+    "name": "Asset management & custodian"
+  },
+  {
+    "parent": "1040",
+    "id": "1040457",
+    "name": "Diversified financial services"
+  },
+  {
+    "parent": "1040",
+    "id": "1040823",
+    "name": "Securities brokerage & services"
+  },
+  {
+    "parent": "1050",
+    "id": "1050801",
+    "name": "Real Estate Services"
+  },
+  {
+    "parent": "1050",
+    "id": "1050802",
+    "name": "Real Estate Holding and Development"
+  },
+  {
+    "parent": "1050",
+    "id": "1050803",
+    "name": "Diversified Real Estate Activities"
+  },
+  {
+    "parent": "1050",
+    "id": "1050805",
+    "name": "Real estate",
+    "obsolete": "true"
+  },
+  {
+    "parent": "1050",
+    "id": "1050806",
+    "name": "Real Estate Investment Trusts (REIT)",
+    "obsolete": "true"
+  },
+  {
+    "parent": "1050",
+    "id": "7050805",
+    "name": "Real estate",
+    "obsolete": "true"
+  },
+  {
+    "parent": "1060",
+    "id": "1060906",
+    "name": "Equity REIT: Industrial"
+  },
+  {
+    "parent": "1060",
+    "id": "1060907",
+    "name": "Equity REIT: Residential"
+  },
+  {
+    "parent": "1060",
+    "id": "1060908",
+    "name": "Equity REIT: Retail"
+  },
+  {
+    "parent": "1060",
+    "id": "1060909",
+    "name": "Equity REIT: Lodging and resorts"
+  },
+  {
+    "parent": "1060",
+    "id": "1060910",
+    "name": "Equity REIT: Health Care"
+  },
+  {
+    "parent": "1060",
+    "id": "1060911",
+    "name": "Equity REIT: Storage"
+  },
+  {
+    "parent": "1060",
+    "id": "1060912",
+    "name": "Equity REIT: Office"
+  },
+  {
+    "parent": "1060",
+    "id": "1060913",
+    "name": "Equity REIT: Timber"
+  },
+  {
+    "parent": "1060",
+    "id": "1060914",
+    "name": "Equity REIT: Infrastructure"
+  },
+  {
+    "parent": "1060",
+    "id": "1060915",
+    "name": "Equity REIT: Other Specialty"
+  },
+  {
+    "parent": "1060",
+    "id": "1060916",
+    "name": "Equity REIT: Diversified"
+  },
+  {
+    "parent": "1060",
+    "id": "1060930",
+    "name": "Mortgage REIT - Residential"
+  },
+  {
+    "parent": "1060",
+    "id": "1060931",
+    "name": "Mortgage REIT - Commercial"
+  },
+  {
+    "parent": "1060",
+    "id": "1060932",
+    "name": "Mortgage REIT - Diversified"
+  },
+  {
+    "parent": "1110",
+    "id": "1110868",
+    "name": "Utilities: Miscellaneous"
+  },
+  {
+    "parent": "1110",
+    "id": "1110870",
+    "name": "Utilities: Electrical"
+  },
+  {
+    "parent": "1110",
+    "id": "1110875",
+    "name": "Utilities: Gas distributors"
+  },
+  {
+    "parent": "1110",
+    "id": "1110880",
+    "name": "Utilities: Telecommunications"
+  },
+  {
+    "parent": "1110",
+    "id": "1110882",
+    "name": "Utilities: Water"
+  },
+  {
+    "parent": "1110",
+    "id": "1110869",
+    "obsolete": "true"
+  }
+]
